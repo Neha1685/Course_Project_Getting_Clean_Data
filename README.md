@@ -1,6 +1,6 @@
 ## The Description of the Data set on which the script "run_analysis.R" works is given below  
 
-============================================================================================
+==========================================================================================
 
 ### Human Activity Recognition Using Smartphones Dataset Version 1.0
 
@@ -59,7 +59,7 @@ The following files are available for the train and test data. Their description
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-============================================================================================
+==========================================================================================
 
 ## The Script "run_analysis.R" works as follow: When run from within the folder containing the dataset files (described above)  
 
