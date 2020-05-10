@@ -1,6 +1,6 @@
 ## The Description of the Data set on which the script "run_analysis.R" works is given below  
 
-=======================================================================================================================================
+============================================================================================
 
 ### Human Activity Recognition Using Smartphones Dataset Version 1.0
 
@@ -59,9 +59,9 @@ The following files are available for the train and test data. Their description
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-=======================================================================================================================================
+============================================================================================
 
-## The Script "run_analysis.R" works as follow: When run from within the folder containing the dataset files(described above)  
+## The Script "run_analysis.R" works as follow: When run from within the folder containing the dataset files (described above)  
 
 1) Loads and merges the training set, training label and traing subjects. 
 
@@ -71,12 +71,12 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 4) Loads the features list and adds column names to the combined data set.
 
-5) Loads the activity labels and replaces the activity ids by activity names
+5) Loads the activity labels and replaces the activity ids by activity names.
 
 6) Extracts only the measurements on the mean and standard deviation for each measurement in the dataset.
 
 7) Appropriately labels the data set with descriptive variable names and tidy the names. All capital letters in the variable names were changed to small letters in the variable names and "-" and "()" were removed.
 
-8) Group the data by Subject and Activity, and calculate the average of each variable for each subject and each activity using the group
+8) Groups the data by Subject and Activity, and calculate the average of each variable for each subject and each activity using the group.
 
-9) Write the data to a file
+9) Writes the data to a file.
