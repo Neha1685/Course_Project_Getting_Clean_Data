@@ -40,6 +40,14 @@ colnames(Subset_data_mean_std)[1:2] <- c("subjects","activity")
 
 #PART 4: Appropriately labels the data set with descriptive variable names.
 names(Subset_data_mean_std) <- tolower(gsub("-|\\(\\)","",names(Subset_data_mean_std)))
+names(Subset_data_mean_std)<-gsub("acc", "accelerometer", names(Subset_data_mean_std))
+names(Subset_data_mean_std)<-gsub("gyro", "gyroscope", names(Subset_data_mean_std))
+names(Subset_data_mean_std)<-gsub("mag", "magnitude", names(Subset_data_mean_std))
+names(Subset_data_mean_std)<-gsub("^t", "time", names(Subset_data_mean_std))
+names(Subset_data_mean_std)<-gsub("^f", "frequency", names(Subset_data_mean_std))
+names(Subset_data_mean_std)<-gsub("bodybody", "body", names(Subset_data_mean_std))
+names(Subset_data_mean_std)<-gsub("std", "standarddeviation", names(Subset_data_mean_std))
+
 
 ##PART 5:From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 grouped_summarised_data <- Subset_data_mean_std %>% 
