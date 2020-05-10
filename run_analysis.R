@@ -1,5 +1,6 @@
 #Script created as submission to the Course Project for the Getting and Cleaning Data.
 ####PART 1:Merge the test and train data set
+library(dplyr)
 #Reading the test given data
 test_data <- read.table("test/X_test.txt")
 #Reading the test subjects
